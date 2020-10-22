@@ -1,0 +1,36 @@
+                        CheckPoint algochayma
+
+
+Algorithme phrase
+
+ var
+
+i,j,longuer ,mots , z ,voy : integer ;
+sentence : string ; 
+voyelle : char; 
+c : char ;
+voy := 0 ;
+voyelle :=[a ,u , o, i, y ,e ] ; 
+mots:=1 ;
+ 
+begin 
+
+
+longuer := length(sentence) ; 
+write("la longueur  est :" longueur) ; 
+c:= " " ;
+for i FROM 0 to  < longueur do
+ if sentence[i]== c then 
+{ mots = mots + 1 } 
+write ("le nombre des mots est : " mots )
+END-FOR
+
+ for j FROM 0 to < length(voyelle)  do 
+for z FROM 0 to  < longueur  do 
+if c[j]== sentence[z] then 
+voy := voy +1 ; 
+
+END-FOR
+write ("les nommbre des voyelle est : " voy )
+
+END 
